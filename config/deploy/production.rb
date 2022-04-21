@@ -54,7 +54,7 @@
    roles: %w{web db app},
    ssh_options: {
      user: "ec2_user", # overrides user setting above
-     keys: %{~/Downloads/dic_sample_cap.pem},
+     keys: %{~/.ssh/dic_sample_cap.pem},
      forward_agent: false,
      auth_methods: %w(publickey password)
      # password: "please use keys"
