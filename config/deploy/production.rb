@@ -49,12 +49,12 @@
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------
- server "54.248.24.227",
+ server "13.231.226.245",
    user: "ec2_user",
    roles: %w{web db app},
    ssh_options: {
      user: "ec2_user", # overrides user setting above
-     keys: %{~/.ssh/dic_sample_cap.pem},
+     keys: %{~/Downloads/blog_app.pem},
      forward_agent: false,
      auth_methods: %w(publickey password)
      # password: "please use keys"
