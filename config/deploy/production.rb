@@ -54,7 +54,7 @@
    roles: %w{web db app},
    ssh_options: {
      user: "ec2_user", # overrides user setting above
-     keys: %{/blog_app.pem},
+     keys: %{~/blog_app.pem},
      forward_agent: false,
      auth_methods: %w(publickey password)
      # password: "please use keys"
