@@ -54,7 +54,7 @@
    roles: %w{web db app},
    ssh_options: {
      user: "ec2_user", # overrides user setting above
-     keys: %{~/.ssh/aws_task.pem},
+     keys: %{~/Downloads/aws_task.pem},
      forward_agent: false,
      auth_methods: %w(publickey password)
      # password: "please use keys"
