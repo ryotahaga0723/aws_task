@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.17.0"
 
-set :application, "aws_task"
+set :application, "blog_app"
 set :repo_url, "https://github.com/ryotahaga0723/aws_task.git"
 set :linked_files, %w{config/secrets.yml}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/uploads}
